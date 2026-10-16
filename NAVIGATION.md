@@ -2,8 +2,9 @@
 
 | I want… | Go to |
 | --- | --- |
-| **Catalog hub** | [student-dev-catalogs](https://github.com/Jay-Lokhande/student-dev-catalogs) |
+| **Hub** | [student-dev-catalogs](https://jay-lokhande.github.io/student-dev-catalogs/) |
 | **All sister catalogs** | [resources/sister-repos.md](resources/sister-repos.md) |
+| **Sister Pages** | [hub](https://jay-lokhande.github.io/student-dev-catalogs/) · [oss](https://jay-lokhande.github.io/oss-programs-and-hackathons/) · [grants](https://jay-lokhande.github.io/build-grants/) · [hack-safe](https://jay-lokhande.github.io/hack-safe/) · [ai](https://jay-lokhande.github.io/ai-catalog/) · [coding](https://jay-lokhande.github.io/coding-platforms/) |
 | Full tables (this catalog) | [README.md](README.md) |
 | GitHub Pages (readable site) | [jay-lokhande.github.io/ai-catalog](https://jay-lokhande.github.io/ai-catalog/) |
 | JSON index | [data/ai-tools.json](data/ai-tools.json) |

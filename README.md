@@ -6,9 +6,9 @@ A community catalog of **AI assistants, models, APIs, coding tools, and local LL
 
 > **Safety:** Fake “ChatGPT” apps and API-key phishing are common → [resources/ai-scams.md](resources/ai-scams.md)
 
-**Navigation:** [NAVIGATION.md](NAVIGATION.md) · **Free tiers:** [resources/free-tiers.md](resources/free-tiers.md)
+**Navigation:** [NAVIGATION.md](NAVIGATION.md) · **Free tiers:** [resources/free-tiers.md](resources/free-tiers.md) · **Hub:** [student-dev-catalogs](https://jay-lokhande.github.io/student-dev-catalogs/)
 
-**Hub:** [student-dev-catalogs](https://github.com/Jay-Lokhande/student-dev-catalogs) · **Sister repos:** [resources/sister-repos.md](resources/sister-repos.md) · **Pages:** [ai-catalog](https://jay-lokhande.github.io/ai-catalog/) · [oss-programs-and-hackathons](https://jay-lokhande.github.io/oss-programs-and-hackathons/) · [coding-platforms](https://jay-lokhande.github.io/coding-platforms/)
+**Sister repos:** [resources/sister-repos.md](resources/sister-repos.md) · **Sister Pages:** [hub](https://jay-lokhande.github.io/student-dev-catalogs/) · [oss](https://jay-lokhande.github.io/oss-programs-and-hackathons/) · [grants](https://jay-lokhande.github.io/build-grants/) · [hack-safe](https://jay-lokhande.github.io/hack-safe/) · [ai](https://jay-lokhande.github.io/ai-catalog/) · [coding](https://jay-lokhande.github.io/coding-platforms/)
 
 ---
 
