@@ -27,6 +27,21 @@ A community catalog of **AI assistants, models, APIs, coding tools, and local LL
 | Qwen Chat | Alibaba | Qwen models hosted | [chat.qwen.ai](https://chat.qwen.ai/) |
 | Pi | Inflection | Conversational | [pi.ai](https://pi.ai/) |
 | Character.AI | Character | Roleplay / personas | [character.ai](https://character.ai/) |
+| NotebookLM | Google | Docs / research notebooks | [notebooklm.google.com](https://notebooklm.google.com/) |
+| You.com | You.com | Search + chat | [you.com](https://you.com/) |
+| Phind | Phind | Dev-focused search | [phind.com](https://www.phind.com/) |
+| Hugging Chat | Hugging Face | Open models in browser | [huggingface.co/chat](https://huggingface.co/chat) |
+
+## Chat & assistants (China & Asia)
+
+| Name | Maker | Official |
+| --- | --- | --- |
+| Ernie Bot | Baidu | [yiyan.baidu.com](https://yiyan.baidu.com/) |
+| Kimi | Moonshot AI | [kimi.moonshot.cn](https://kimi.moonshot.cn/) |
+| Doubao | ByteDance | [doubao.com](https://www.doubao.com/) |
+| Tongyi Qianwen | Alibaba | [tongyi.aliyun.com](https://tongyi.aliyun.com/) |
+| Zhipu GLM / ChatGLM | Zhipu AI | [chatglm.cn](https://chatglm.cn/) |
+| Sarvam AI | Sarvam (India) | [sarvam.ai](https://www.sarvam.ai/) |
 
 ## Coding & developer AI
 
@@ -45,6 +60,12 @@ A community catalog of **AI assistants, models, APIs, coding tools, and local LL
 | Replit Agent | Replit | Browser IDE + agent | [replit.com](https://replit.com/) |
 | Bolt.new | StackBlitz | Prompt-to-app in browser | [bolt.new](https://bolt.new/) |
 | v0 | Vercel | UI generation | [v0.dev](https://v0.dev/) |
+| JetBrains AI | JetBrains | IDE assistant | [jetbrains.com/ai](https://www.jetbrains.com/ai/) |
+| Lovable | Lovable | Full-stack app builder | [lovable.dev](https://lovable.dev/) |
+| Open WebUI | Open WebUI | Self-hosted chat UI | [openwebui.com](https://openwebui.com/) |
+| LibreChat | LibreChat | Multi-model OSS chat | [librechat.ai](https://www.librechat.ai/) |
+| Aider | Aider | CLI pair programming | [aider.chat](https://aider.chat/) |
+| Zed + AI | Zed | Editor with AI | [zed.dev](https://zed.dev/) |
 
 ## Model APIs (build your own app)
 
@@ -62,6 +83,11 @@ A community catalog of **AI assistants, models, APIs, coding tools, and local LL
 | Hugging Face Inference | [huggingface.co/inference-api](https://huggingface.co/docs/inference-providers) | Many open models |
 | DeepSeek API | [platform.deepseek.com](https://platform.deepseek.com/) | DeepSeek models |
 | xAI API | [x.ai/api](https://x.ai/api) | Grok models |
+| Azure OpenAI | [azure.microsoft.com/products/ai-services/openai-service](https://azure.microsoft.com/en-us/products/ai-services/openai-service) | Enterprise OpenAI |
+| AWS Bedrock | [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock/) | Multi-model on AWS |
+| Google Vertex AI | [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai) | Gemini & ML on GCP |
+| Replicate | [replicate.com](https://replicate.com/) | Run models via API |
+| AI21 | [ai21.com](https://www.ai21.com/) | Jamba / studio |
 
 ## Run models locally (tools)
 
@@ -75,6 +101,8 @@ A community catalog of **AI assistants, models, APIs, coding tools, and local LL
 | LocalAI | [localai.io](https://localai.io/) | Self-hosted OpenAI-compatible API |
 | vLLM | [github.com/vllm-project/vllm](https://github.com/vllm-project/vllm) | Production GPU serving |
 | text-generation-webui | [github.com/oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) | Gradio UI |
+| MLX (Apple) | [github.com/ml-explore/mlx](https://github.com/ml-explore/mlx) | Apple Silicon local |
+| KoboldCpp | [github.com/LostRuins/koboldcpp](https://github.com/LostRuins/koboldcpp) | Local GGUF server |
 
 ## Open-weight & open-source models (families)
 
@@ -90,6 +118,9 @@ A community catalog of **AI assistants, models, APIs, coding tools, and local LL
 | Stable Diffusion | Stability | Community / various | [stability.ai](https://stability.ai/) |
 | FLUX | Black Forest Labs | Non-commercial / Apache (variant) | [bfl.ai](https://bfl.ai/) |
 | Whisper | OpenAI | MIT | [github.com/openai/whisper](https://github.com/openai/whisper) |
+| OLMo | Ai2 | Apache 2.0 | [allenai.org/olmo](https://allenai.org/olmo) |
+| Falcon | TII | Falcon license | [huggingface.co/tiiuae](https://huggingface.co/tiiuae) |
+| Command R | Cohere | CC-BY-NC / commercial tiers | [cohere.com](https://cohere.com/) |
 
 Browse all: [Hugging Face Models](https://huggingface.co/models) · [Ollama library](https://ollama.com/library)
 
@@ -108,6 +139,9 @@ Browse all: [Hugging Face Models](https://huggingface.co/models) · [Ollama libr
 | Sora (OpenAI) | Video | [openai.com/sora](https://openai.com/sora/) |
 | Canva AI | Design | [canva.com](https://www.canva.com/) |
 | Figma AI | Design | [figma.com](https://www.figma.com/) |
+| Stable Diffusion Web | Community | [stability.ai](https://stability.ai/) |
+| ComfyUI | Node UI (local) | [github.com/comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) |
+| Luma Dream Machine | Video | [lumalabs.ai](https://lumalabs.ai/) |
 
 ## Audio, voice & music
 
@@ -118,6 +152,40 @@ Browse all: [Hugging Face Models](https://huggingface.co/models) · [Ollama libr
 | Udio | Music | [udio.com](https://www.udio.com/) |
 | OpenAI Voice / TTS | Speech | [platform.openai.com](https://platform.openai.com/) |
 | Whisper | STT (local) | [github.com/openai/whisper](https://github.com/openai/whisper) |
+| Descript | Podcast / video edit | [descript.com](https://www.descript.com/) |
+| Murf | TTS | [murf.ai](https://murf.ai/) |
+
+## Writing, productivity & search
+
+| Name | Best for | Official |
+| --- | --- | --- |
+| Notion AI | Notes / wikis | [notion.so/product/ai](https://www.notion.so/product/ai) |
+| Grammarly | Writing assist | [grammarly.com](https://www.grammarly.com/) |
+| Microsoft 365 Copilot | Office suite | [microsoft.com/copilot](https://www.microsoft.com/en-us/microsoft-copilot) |
+| Google Workspace AI | Docs, Gmail | [workspace.google.com](https://workspace.google.com/) |
+| Obsidian + plugins | Local notes + LLM plugins | [obsidian.md](https://obsidian.md/) |
+| Raycast AI | macOS launcher | [raycast.com/ai](https://www.raycast.com/ai) |
+
+## Vector DB, RAG & data
+
+| Name | Best for | Official |
+| --- | --- | --- |
+| Pinecone | Managed vectors | [pinecone.io](https://www.pinecone.io/) |
+| Weaviate | OSS vector DB | [weaviate.io](https://weaviate.io/) |
+| Chroma | Embedded vectors | [trychroma.com](https://www.trychroma.com/) |
+| Qdrant | Vector search | [qdrant.tech](https://qdrant.tech/) |
+| LanceDB | Embedded / multimodal | [lancedb.com](https://lancedb.com/) |
+
+## MLOps & training
+
+| Name | Best for | Official |
+| --- | --- | --- |
+| Weights & Biases | Experiment tracking | [wandb.ai](https://wandb.ai/) |
+| MLflow | OSS ML lifecycle | [mlflow.org](https://mlflow.org/) |
+| PyTorch | Deep learning | [pytorch.org](https://pytorch.org/) |
+| TensorFlow | Deep learning | [tensorflow.org](https://www.tensorflow.org/) |
+| JAX | Google research stack | [jax.dev](https://jax.dev/) |
+| Kaggle | Datasets + competitions | [kaggle.com](https://www.kaggle.com/) |
 
 ## Agents, automation & RAG
 
@@ -132,6 +200,20 @@ Browse all: [Hugging Face Models](https://huggingface.co/models) · [Ollama libr
 | Zapier AI | No-code automation | [zapier.com/ai](https://zapier.com/ai) |
 | Dify | LLM app platform | [dify.ai](https://dify.ai/) |
 | Flowise | Visual LLM chains | [flowiseai.com](https://flowiseai.com/) |
+| Semantic Kernel | Microsoft SDK | [learn.microsoft.com/semantic-kernel](https://learn.microsoft.com/en-us/semantic-kernel/) |
+| OpenAI Agents SDK | OpenAI agents | [openai.github.io/openai-agents-python](https://openai.github.io/openai-agents-python/) |
+| MCP (Model Context Protocol) | Tool context standard | [modelcontextprotocol.io](https://modelcontextprotocol.io/) |
+
+## AI careers, programs & internships
+
+| Resource | Notes | Official |
+| --- | --- | --- |
+| Open-source internships (GSoC, etc.) | Sister repo | [oss-programs-and-hackathons](https://github.com/Jay-Lokhande/oss-programs-and-hackathons) |
+| Google DeepMind careers | Research roles | [deepmind.google/about/careers](https://deepmind.google/about/careers/) |
+| OpenAI jobs | Industry | [openai.com/careers](https://openai.com/careers) |
+| Anthropic careers | Industry | [anthropic.com/careers](https://www.anthropic.com/careers) |
+| Hugging Face jobs | OSS ML | [huggingface.co/join](https://huggingface.co/join) |
+| AI residency programs | Vary by lab — search “AI residency” + company | — |
 
 ## Research & model hubs
 
