@@ -8,7 +8,7 @@ A community catalog of **AI assistants, models, APIs, coding tools, and local LL
 
 **Navigation:** [NAVIGATION.md](NAVIGATION.md) · **Free tiers:** [resources/free-tiers.md](resources/free-tiers.md)
 
-**Sister repos:** [resources/sister-repos.md](resources/sister-repos.md) · **Pages:** [ai-catalog](https://jay-lokhande.github.io/ai-catalog/) · [oss-programs-and-hackathons](https://jay-lokhande.github.io/oss-programs-and-hackathons/) · [coding-platforms](https://jay-lokhande.github.io/coding-platforms/)
+**Hub:** [student-dev-catalogs](https://github.com/Jay-Lokhande/student-dev-catalogs) · **Sister repos:** [resources/sister-repos.md](resources/sister-repos.md) · **Pages:** [ai-catalog](https://jay-lokhande.github.io/ai-catalog/) · [oss-programs-and-hackathons](https://jay-lokhande.github.io/oss-programs-and-hackathons/) · [coding-platforms](https://jay-lokhande.github.io/coding-platforms/)
 
 ---
 

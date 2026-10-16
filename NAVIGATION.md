@@ -2,7 +2,8 @@
 
 | I want… | Go to |
 | --- | --- |
-| **All three sister catalogs** | [resources/sister-repos.md](resources/sister-repos.md) |
+| **Catalog hub** | [student-dev-catalogs](https://github.com/Jay-Lokhande/student-dev-catalogs) |
+| **All sister catalogs** | [resources/sister-repos.md](resources/sister-repos.md) |
 | Full tables (this catalog) | [README.md](README.md) |
 | GitHub Pages (readable site) | [jay-lokhande.github.io/ai-catalog](https://jay-lokhande.github.io/ai-catalog/) |
 | JSON index | [data/ai-tools.json](data/ai-tools.json) |
