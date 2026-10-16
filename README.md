@@ -1,6 +1,6 @@
 # All The AIs
 
-A community catalog of **AI assistants, models, APIs, coding tools, and local LLMs** — what they’re for, who makes them, and official links. You can [Navigation](NAVIGATION.md), find [Hub](https://jay-lokhande.github.io/student-dev-catalogs/) (all catalogs), and browse [Sister repos](resources/sister-repos.md).
+A community catalog of **AI assistants, models, APIs, coding tools, and local LLMs** — what they’re for, who makes them, and official links. You can [navigate](NAVIGATION.md), find [Hub](https://jay-lokhande.github.io/student-dev-catalogs/) (all catalogs), and browse [Sister repos](resources/sister-repos.md).
 
 > **Disclaimer:** Products rename and reprice constantly. Check official sites before signing up or sending data. Open a PR to fix outdated entries.
 
