@@ -6,7 +6,7 @@ A community catalog of **AI assistants, models, APIs, coding tools, and local LL
 
 > **Safety:** Fake “ChatGPT” apps and API-key phishing are common → [resources/ai-scams.md](resources/ai-scams.md)
 
-**Navigation:** [NAVIGATION.md](NAVIGATION.md)
+**Navigation:** [NAVIGATION.md](NAVIGATION.md) · **Free tiers:** [resources/free-tiers.md](resources/free-tiers.md) · **Pages:** [GitHub Pages site](https://jay-lokhande.github.io/ai-catalog/)
 
 ---
 
@@ -225,17 +225,50 @@ Browse all: [Hugging Face Models](https://huggingface.co/models) · [Ollama libr
 | LMSYS Chatbot Arena | [lmarena.ai](https://lmarena.ai/) |
 | Artificial Analysis | [artificialanalysis.ai](https://artificialanalysis.ai/) |
 
-## Learn & student free tiers
+## Learn & courses
 
 | Resource | URL |
 | --- | --- |
-| Google AI Studio (free tier) | [aistudio.google.com](https://aistudio.google.com/) |
-| GitHub Copilot (students) | [education.github.com](https://education.github.com/) |
-| AWS Educate / credits | [aws.amazon.com/education](https://aws.amazon.com/education/) |
-| Microsoft Learn AI | [learn.microsoft.com/ai](https://learn.microsoft.com/en-us/ai/) |
 | DeepLearning.AI | [deeplearning.ai](https://www.deeplearning.ai/) |
 | fast.ai | [course.fast.ai](https://course.fast.ai/) |
 | Kaggle Learn | [kaggle.com/learn](https://www.kaggle.com/learn) |
+| Microsoft Learn AI | [learn.microsoft.com/ai](https://learn.microsoft.com/en-us/ai/) |
+
+See **[resources/free-tiers.md](resources/free-tiers.md)** for API credits and student programs.
+
+## Hardware & on-device AI
+
+| Name | Notes | Official |
+| --- | --- | --- |
+| Apple Intelligence | On-device + Private Cloud Compute | [apple.com/apple-intelligence](https://www.apple.com/apple-intelligence/) |
+| Copilot+ PC | Windows on-device AI (NPUs) | [copilot.microsoft.com](https://copilot.microsoft.com/) |
+| Qualcomm AI Hub | Edge / mobile models | [aihub.qualcomm.com](https://aihub.qualcomm.com/) |
+| Intel AI PC | NPU branding / tools | [intel.com/aipc](https://www.intel.com/content/www/us/en/ai/overview.html) |
+| AMD Ryzen AI | NPU on laptops | [amd.com/en/technologies/ryzen-ai](https://www.amd.com/en/technologies/ryzen-ai) |
+| MLX | Apple Silicon local ML | [github.com/ml-explore/mlx](https://github.com/ml-explore/mlx) |
+
+## Enterprise AI platforms
+
+| Name | Best for | Official |
+| --- | --- | --- |
+| Databricks (Mosaic AI) | Lakehouse + ML | [databricks.com/product/artificial-intelligence](https://www.databricks.com/product/artificial-intelligence) |
+| Snowflake Cortex | SQL + LLM in warehouse | [docs.snowflake.com/cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex) |
+| Salesforce Einstein | CRM AI | [salesforce.com/artificial-intelligence](https://www.salesforce.com/artificial-intelligence/) |
+| Google Vertex AI | Enterprise GCP | [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai) |
+| Azure AI | Enterprise Microsoft | [azure.microsoft.com/solutions/ai](https://azure.microsoft.com/en-us/solutions/ai) |
+
+## AI policy, ethics & safety (links only)
+
+Not legal advice — read primary sources.
+
+| Resource | URL |
+| --- | --- |
+| EU AI Act (official) | [digital-strategy.ec.europa.eu/ai-act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) |
+| NIST AI Risk Management Framework | [nist.gov/itl/ai-risk-management-framework](https://www.nist.gov/itl/ai-risk-management-framework) |
+| OECD AI Policy Observatory | [oecd.ai](https://oecd.ai/) |
+| Partnership on AI | [partnershiponai.org](https://partnershiponai.org/) |
+| UNESCO AI ethics | [unesco.org/en/artificial-intelligence](https://www.unesco.org/en/artificial-intelligence) |
+| Creative Commons — AI & copyright | [creativecommons.org/about/ai-and-creative-commons](https://creativecommons.org/about/ai-and-creative-commons/) |
 
 ## Contribute
 

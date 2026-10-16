@@ -1,53 +1,938 @@
 [
-  {"name": "ChatGPT", "category": "chat", "maker": "OpenAI", "url": "https://chatgpt.com/"},
-  {"name": "Claude", "category": "chat", "maker": "Anthropic", "url": "https://claude.ai/"},
-  {"name": "Gemini", "category": "chat", "maker": "Google", "url": "https://gemini.google.com/"},
-  {"name": "Copilot", "category": "chat", "maker": "Microsoft", "url": "https://copilot.microsoft.com/"},
-  {"name": "Perplexity", "category": "chat", "maker": "Perplexity", "url": "https://www.perplexity.ai/"},
-  {"name": "Grok", "category": "chat", "maker": "xAI", "url": "https://grok.com/"},
-  {"name": "DeepSeek Chat", "category": "chat", "maker": "DeepSeek", "url": "https://chat.deepseek.com/"},
-  {"name": "Qwen Chat", "category": "chat", "maker": "Alibaba", "url": "https://chat.qwen.ai/"},
-  {"name": "Kimi", "category": "chat", "maker": "Moonshot", "url": "https://kimi.moonshot.cn/"},
-  {"name": "Ernie Bot", "category": "chat", "maker": "Baidu", "url": "https://yiyan.baidu.com/"},
-  {"name": "Sarvam AI", "category": "chat", "maker": "Sarvam", "url": "https://www.sarvam.ai/"},
-  {"name": "NotebookLM", "category": "chat", "maker": "Google", "url": "https://notebooklm.google.com/"},
-  {"name": "Hugging Chat", "category": "chat", "maker": "Hugging Face", "url": "https://huggingface.co/chat"},
-  {"name": "Cursor", "category": "coding", "maker": "Cursor", "url": "https://cursor.com/"},
-  {"name": "GitHub Copilot", "category": "coding", "maker": "GitHub", "url": "https://github.com/features/copilot"},
-  {"name": "Claude Code", "category": "coding", "maker": "Anthropic", "url": "https://docs.anthropic.com/en/docs/claude-code"},
-  {"name": "Windsurf", "category": "coding", "maker": "Codeium", "url": "https://windsurf.com/"},
-  {"name": "Continue", "category": "coding", "maker": "Continue", "url": "https://continue.dev/"},
-  {"name": "Aider", "category": "coding", "maker": "Aider", "url": "https://aider.chat/"},
-  {"name": "Open WebUI", "category": "coding", "maker": "Open WebUI", "url": "https://openwebui.com/"},
-  {"name": "OpenAI API", "category": "api", "maker": "OpenAI", "url": "https://platform.openai.com/"},
-  {"name": "Anthropic API", "category": "api", "maker": "Anthropic", "url": "https://docs.anthropic.com/"},
-  {"name": "Google AI Studio", "category": "api", "maker": "Google", "url": "https://aistudio.google.com/"},
-  {"name": "AWS Bedrock", "category": "api", "maker": "AWS", "url": "https://aws.amazon.com/bedrock/"},
-  {"name": "Azure OpenAI", "category": "api", "maker": "Microsoft", "url": "https://azure.microsoft.com/en-us/products/ai-services/openai-service"},
-  {"name": "Vertex AI", "category": "api", "maker": "Google Cloud", "url": "https://cloud.google.com/vertex-ai"},
-  {"name": "Groq", "category": "api", "maker": "Groq", "url": "https://groq.com/"},
-  {"name": "Together AI", "category": "api", "maker": "Together", "url": "https://www.together.ai/"},
-  {"name": "OpenRouter", "category": "api", "maker": "OpenRouter", "url": "https://openrouter.ai/"},
-  {"name": "Ollama", "category": "local", "maker": "Ollama", "url": "https://ollama.com/"},
-  {"name": "LM Studio", "category": "local", "maker": "LM Studio", "url": "https://lmstudio.ai/"},
-  {"name": "llama.cpp", "category": "local", "maker": "Community", "url": "https://github.com/ggerganov/llama.cpp"},
-  {"name": "LocalAI", "category": "local", "maker": "LocalAI", "url": "https://localai.io/"},
-  {"name": "Llama", "category": "model", "maker": "Meta", "url": "https://llama.meta.com/"},
-  {"name": "Qwen", "category": "model", "maker": "Alibaba", "url": "https://huggingface.co/Qwen"},
-  {"name": "Mistral", "category": "model", "maker": "Mistral AI", "url": "https://mistral.ai/"},
-  {"name": "Gemma", "category": "model", "maker": "Google", "url": "https://ai.google.dev/gemma"},
-  {"name": "gpt-oss", "category": "model", "maker": "OpenAI", "url": "https://openai.com/open-models/"},
-  {"name": "Midjourney", "category": "image", "maker": "Midjourney", "url": "https://www.midjourney.com/"},
-  {"name": "Adobe Firefly", "category": "image", "maker": "Adobe", "url": "https://firefly.adobe.com/"},
-  {"name": "Runway", "category": "video", "maker": "Runway", "url": "https://runwayml.com/"},
-  {"name": "ElevenLabs", "category": "audio", "maker": "ElevenLabs", "url": "https://elevenlabs.io/"},
-  {"name": "Suno", "category": "audio", "maker": "Suno", "url": "https://suno.com/"},
-  {"name": "LangChain", "category": "agent", "maker": "LangChain", "url": "https://www.langchain.com/"},
-  {"name": "LlamaIndex", "category": "agent", "maker": "LlamaIndex", "url": "https://www.llamaindex.ai/"},
-  {"name": "Pinecone", "category": "vector", "maker": "Pinecone", "url": "https://www.pinecone.io/"},
-  {"name": "Chroma", "category": "vector", "maker": "Chroma", "url": "https://www.trychroma.com/"},
-  {"name": "Notion AI", "category": "productivity", "maker": "Notion", "url": "https://www.notion.so/product/ai"},
-  {"name": "Hugging Face", "category": "hub", "maker": "HF", "url": "https://huggingface.co/"},
-  {"name": "Weights & Biases", "category": "mlops", "maker": "W&B", "url": "https://wandb.ai/"},
-  {"name": "OSS programs guide", "category": "career", "maker": "Community", "url": "https://github.com/Jay-Lokhande/oss-programs-and-hackathons"}
+  {
+    "name": "ChatGPT",
+    "category": "chat",
+    "maker": "OpenAI",
+    "url": "https://chatgpt.com/"
+  },
+  {
+    "name": "Claude",
+    "category": "chat",
+    "maker": "Anthropic",
+    "url": "https://claude.ai/"
+  },
+  {
+    "name": "Gemini",
+    "category": "chat",
+    "maker": "Google",
+    "url": "https://gemini.google.com/"
+  },
+  {
+    "name": "Copilot (consumer)",
+    "category": "chat",
+    "maker": "Microsoft",
+    "url": "https://copilot.microsoft.com/"
+  },
+  {
+    "name": "Meta AI",
+    "category": "chat",
+    "maker": "Meta",
+    "url": "https://www.meta.ai/"
+  },
+  {
+    "name": "Perplexity",
+    "category": "chat",
+    "maker": "Perplexity",
+    "url": "https://www.perplexity.ai/"
+  },
+  {
+    "name": "Poe",
+    "category": "chat",
+    "maker": "Quora",
+    "url": "https://poe.com/"
+  },
+  {
+    "name": "Mistral Le Chat",
+    "category": "chat",
+    "maker": "Mistral",
+    "url": "https://chat.mistral.ai/"
+  },
+  {
+    "name": "Grok",
+    "category": "chat",
+    "maker": "xAI",
+    "url": "https://grok.com/"
+  },
+  {
+    "name": "DeepSeek (web)",
+    "category": "chat",
+    "maker": "DeepSeek",
+    "url": "https://chat.deepseek.com/"
+  },
+  {
+    "name": "Qwen Chat",
+    "category": "chat",
+    "maker": "Alibaba",
+    "url": "https://chat.qwen.ai/"
+  },
+  {
+    "name": "Pi",
+    "category": "chat",
+    "maker": "Inflection",
+    "url": "https://pi.ai/"
+  },
+  {
+    "name": "Character.AI",
+    "category": "chat",
+    "maker": "Character",
+    "url": "https://character.ai/"
+  },
+  {
+    "name": "NotebookLM",
+    "category": "chat",
+    "maker": "Google",
+    "url": "https://notebooklm.google.com/"
+  },
+  {
+    "name": "You.com",
+    "category": "chat",
+    "maker": "You.com",
+    "url": "https://you.com/"
+  },
+  {
+    "name": "Phind",
+    "category": "chat",
+    "maker": "Phind",
+    "url": "https://www.phind.com/"
+  },
+  {
+    "name": "Hugging Chat",
+    "category": "chat",
+    "maker": "Hugging Face",
+    "url": "https://huggingface.co/chat"
+  },
+  {
+    "name": "Ernie Bot",
+    "category": "chat",
+    "maker": "Baidu",
+    "url": "https://yiyan.baidu.com/"
+  },
+  {
+    "name": "Kimi",
+    "category": "chat",
+    "maker": "Moonshot AI",
+    "url": "https://kimi.moonshot.cn/"
+  },
+  {
+    "name": "Doubao",
+    "category": "chat",
+    "maker": "ByteDance",
+    "url": "https://www.doubao.com/"
+  },
+  {
+    "name": "Tongyi Qianwen",
+    "category": "chat",
+    "maker": "Alibaba",
+    "url": "https://tongyi.aliyun.com/"
+  },
+  {
+    "name": "Zhipu GLM / ChatGLM",
+    "category": "chat",
+    "maker": "Zhipu AI",
+    "url": "https://chatglm.cn/"
+  },
+  {
+    "name": "Sarvam AI",
+    "category": "chat",
+    "maker": "Sarvam",
+    "url": "https://www.sarvam.ai/"
+  },
+  {
+    "name": "Cursor",
+    "category": "coding",
+    "maker": "Cursor",
+    "url": "https://cursor.com/"
+  },
+  {
+    "name": "GitHub Copilot",
+    "category": "coding",
+    "maker": "GitHub",
+    "url": "https://github.com/features/copilot"
+  },
+  {
+    "name": "Claude Code",
+    "category": "coding",
+    "maker": "Anthropic",
+    "url": "https://docs.anthropic.com/en/docs/claude-code"
+  },
+  {
+    "name": "Codex (OpenAI)",
+    "category": "coding",
+    "maker": "OpenAI",
+    "url": "https://openai.com/codex/"
+  },
+  {
+    "name": "Google Antigravity",
+    "category": "coding",
+    "maker": "Google",
+    "url": "https://antigravity.google/"
+  },
+  {
+    "name": "Windsurf",
+    "category": "coding",
+    "maker": "Codeium",
+    "url": "https://windsurf.com/"
+  },
+  {
+    "name": "Continue",
+    "category": "coding",
+    "maker": "Continue",
+    "url": "https://continue.dev/"
+  },
+  {
+    "name": "Cody",
+    "category": "coding",
+    "maker": "Sourcegraph",
+    "url": "https://sourcegraph.com/cody"
+  },
+  {
+    "name": "Amazon Q Developer",
+    "category": "coding",
+    "maker": "AWS",
+    "url": "https://aws.amazon.com/q/developer/"
+  },
+  {
+    "name": "Tabnine",
+    "category": "coding",
+    "maker": "Tabnine",
+    "url": "https://www.tabnine.com/"
+  },
+  {
+    "name": "Replit Agent",
+    "category": "coding",
+    "maker": "Replit",
+    "url": "https://replit.com/"
+  },
+  {
+    "name": "Bolt.new",
+    "category": "coding",
+    "maker": "StackBlitz",
+    "url": "https://bolt.new/"
+  },
+  {
+    "name": "v0",
+    "category": "coding",
+    "maker": "Vercel",
+    "url": "https://v0.dev/"
+  },
+  {
+    "name": "JetBrains AI",
+    "category": "coding",
+    "maker": "JetBrains",
+    "url": "https://www.jetbrains.com/ai/"
+  },
+  {
+    "name": "Lovable",
+    "category": "coding",
+    "maker": "Lovable",
+    "url": "https://lovable.dev/"
+  },
+  {
+    "name": "Open WebUI",
+    "category": "coding",
+    "maker": "Open WebUI",
+    "url": "https://openwebui.com/"
+  },
+  {
+    "name": "LibreChat",
+    "category": "coding",
+    "maker": "LibreChat",
+    "url": "https://www.librechat.ai/"
+  },
+  {
+    "name": "Aider",
+    "category": "coding",
+    "maker": "Aider",
+    "url": "https://aider.chat/"
+  },
+  {
+    "name": "Zed + AI",
+    "category": "coding",
+    "maker": "Zed",
+    "url": "https://zed.dev/"
+  },
+  {
+    "name": "OpenAI API",
+    "category": "api",
+    "maker": "OpenAI",
+    "url": "https://platform.openai.com/"
+  },
+  {
+    "name": "Anthropic API",
+    "category": "api",
+    "maker": "Anthropic",
+    "url": "https://docs.anthropic.com/"
+  },
+  {
+    "name": "Google AI Studio / Gemini API",
+    "category": "api",
+    "maker": "Google",
+    "url": "https://aistudio.google.com/"
+  },
+  {
+    "name": "Mistral API",
+    "category": "api",
+    "maker": "Mistral",
+    "url": "https://docs.mistral.ai/"
+  },
+  {
+    "name": "Groq",
+    "category": "api",
+    "maker": "Groq",
+    "url": "https://groq.com/"
+  },
+  {
+    "name": "Together AI",
+    "category": "api",
+    "maker": "Together",
+    "url": "https://www.together.ai/"
+  },
+  {
+    "name": "Fireworks AI",
+    "category": "api",
+    "maker": "Fireworks",
+    "url": "https://fireworks.ai/"
+  },
+  {
+    "name": "Cohere",
+    "category": "api",
+    "maker": "Cohere",
+    "url": "https://cohere.com/"
+  },
+  {
+    "name": "OpenRouter",
+    "category": "api",
+    "maker": "OpenRouter",
+    "url": "https://openrouter.ai/"
+  },
+  {
+    "name": "Hugging Face Inference",
+    "category": "api",
+    "maker": "Hugging Face",
+    "url": "https://huggingface.co/docs/inference-providers"
+  },
+  {
+    "name": "DeepSeek API",
+    "category": "api",
+    "maker": "DeepSeek",
+    "url": "https://platform.deepseek.com/"
+  },
+  {
+    "name": "xAI API",
+    "category": "api",
+    "maker": "xAI",
+    "url": "https://x.ai/api"
+  },
+  {
+    "name": "Azure OpenAI",
+    "category": "api",
+    "maker": "Microsoft",
+    "url": "https://azure.microsoft.com/en-us/products/ai-services/openai-service"
+  },
+  {
+    "name": "AWS Bedrock",
+    "category": "api",
+    "maker": "AWS",
+    "url": "https://aws.amazon.com/bedrock/"
+  },
+  {
+    "name": "Google Vertex AI",
+    "category": "api",
+    "maker": "Google Cloud",
+    "url": "https://cloud.google.com/vertex-ai"
+  },
+  {
+    "name": "Replicate",
+    "category": "api",
+    "maker": "Replicate",
+    "url": "https://replicate.com/"
+  },
+  {
+    "name": "AI21",
+    "category": "api",
+    "maker": "AI21",
+    "url": "https://www.ai21.com/"
+  },
+  {
+    "name": "Ollama",
+    "category": "local",
+    "maker": "Ollama",
+    "url": "https://ollama.com/"
+  },
+  {
+    "name": "LM Studio",
+    "category": "local",
+    "maker": "LM Studio",
+    "url": "https://lmstudio.ai/"
+  },
+  {
+    "name": "llama.cpp",
+    "category": "local",
+    "maker": "Community",
+    "url": "https://github.com/ggerganov/llama.cpp"
+  },
+  {
+    "name": "Jan",
+    "category": "local",
+    "maker": "Jan",
+    "url": "https://jan.ai/"
+  },
+  {
+    "name": "GPT4All",
+    "category": "local",
+    "maker": "GPT4All",
+    "url": "https://gpt4all.io/"
+  },
+  {
+    "name": "LocalAI",
+    "category": "local",
+    "maker": "LocalAI",
+    "url": "https://localai.io/"
+  },
+  {
+    "name": "vLLM",
+    "category": "local",
+    "maker": "vLLM",
+    "url": "https://github.com/vllm-project/vllm"
+  },
+  {
+    "name": "text-generation-webui",
+    "category": "local",
+    "maker": "Community",
+    "url": "https://github.com/oobabooga/text-generation-webui"
+  },
+  {
+    "name": "MLX (Apple)",
+    "category": "local",
+    "maker": "Apple",
+    "url": "https://github.com/ml-explore/mlx"
+  },
+  {
+    "name": "KoboldCpp",
+    "category": "local",
+    "maker": "Community",
+    "url": "https://github.com/LostRuins/koboldcpp"
+  },
+  {
+    "name": "Llama",
+    "category": "model",
+    "maker": "Meta",
+    "url": "https://llama.meta.com/"
+  },
+  {
+    "name": "Qwen",
+    "category": "model",
+    "maker": "Alibaba",
+    "url": "https://huggingface.co/Qwen"
+  },
+  {
+    "name": "Mistral / Mixtral",
+    "category": "model",
+    "maker": "Mistral AI",
+    "url": "https://mistral.ai/"
+  },
+  {
+    "name": "Gemma",
+    "category": "model",
+    "maker": "Google",
+    "url": "https://ai.google.dev/gemma"
+  },
+  {
+    "name": "Phi",
+    "category": "model",
+    "maker": "Microsoft",
+    "url": "https://huggingface.co/microsoft"
+  },
+  {
+    "name": "DeepSeek",
+    "category": "model",
+    "maker": "DeepSeek",
+    "url": "https://huggingface.co/deepseek-ai"
+  },
+  {
+    "name": "gpt-oss",
+    "category": "model",
+    "maker": "OpenAI",
+    "url": "https://openai.com/open-models/"
+  },
+  {
+    "name": "Stable Diffusion",
+    "category": "model",
+    "maker": "Stability",
+    "url": "https://stability.ai/"
+  },
+  {
+    "name": "FLUX",
+    "category": "model",
+    "maker": "Black Forest Labs",
+    "url": "https://bfl.ai/"
+  },
+  {
+    "name": "Whisper",
+    "category": "model",
+    "maker": "OpenAI",
+    "url": "https://github.com/openai/whisper"
+  },
+  {
+    "name": "OLMo",
+    "category": "model",
+    "maker": "Ai2",
+    "url": "https://allenai.org/olmo"
+  },
+  {
+    "name": "Falcon",
+    "category": "model",
+    "maker": "TII",
+    "url": "https://huggingface.co/tiiuae"
+  },
+  {
+    "name": "Midjourney",
+    "category": "image",
+    "maker": "Midjourney",
+    "url": "https://www.midjourney.com/"
+  },
+  {
+    "name": "DALL\u00b7E",
+    "category": "image",
+    "maker": "DALL\u00b7E",
+    "url": "https://openai.com/dall-e-3"
+  },
+  {
+    "name": "Adobe Firefly",
+    "category": "image",
+    "maker": "Adobe",
+    "url": "https://firefly.adobe.com/"
+  },
+  {
+    "name": "Ideogram",
+    "category": "image",
+    "maker": "Ideogram",
+    "url": "https://ideogram.ai/"
+  },
+  {
+    "name": "Leonardo.Ai",
+    "category": "image",
+    "maker": "Leonardo.Ai",
+    "url": "https://leonardo.ai/"
+  },
+  {
+    "name": "Runway",
+    "category": "video",
+    "maker": "Runway",
+    "url": "https://runwayml.com/"
+  },
+  {
+    "name": "Pika",
+    "category": "video",
+    "maker": "Pika",
+    "url": "https://pika.art/"
+  },
+  {
+    "name": "Kling",
+    "category": "video",
+    "maker": "Kling",
+    "url": "https://klingai.com/"
+  },
+  {
+    "name": "Sora (OpenAI)",
+    "category": "video",
+    "maker": "Sora",
+    "url": "https://openai.com/sora/"
+  },
+  {
+    "name": "Canva AI",
+    "category": "image",
+    "maker": "Canva",
+    "url": "https://www.canva.com/"
+  },
+  {
+    "name": "Figma AI",
+    "category": "image",
+    "maker": "Figma",
+    "url": "https://www.figma.com/"
+  },
+  {
+    "name": "ComfyUI",
+    "category": "image",
+    "maker": "ComfyUI",
+    "url": "https://github.com/comfyanonymous/ComfyUI"
+  },
+  {
+    "name": "Luma Dream Machine",
+    "category": "video",
+    "maker": "Luma",
+    "url": "https://lumalabs.ai/"
+  },
+  {
+    "name": "ElevenLabs",
+    "category": "audio",
+    "maker": "ElevenLabs",
+    "url": "https://elevenlabs.io/"
+  },
+  {
+    "name": "Suno",
+    "category": "audio",
+    "maker": "Suno",
+    "url": "https://suno.com/"
+  },
+  {
+    "name": "Udio",
+    "category": "audio",
+    "maker": "Udio",
+    "url": "https://www.udio.com/"
+  },
+  {
+    "name": "Descript",
+    "category": "audio",
+    "maker": "Descript",
+    "url": "https://www.descript.com/"
+  },
+  {
+    "name": "Murf",
+    "category": "audio",
+    "maker": "Murf",
+    "url": "https://murf.ai/"
+  },
+  {
+    "name": "Notion AI",
+    "category": "productivity",
+    "maker": "Notion",
+    "url": "https://www.notion.so/product/ai"
+  },
+  {
+    "name": "Grammarly",
+    "category": "productivity",
+    "maker": "Grammarly",
+    "url": "https://www.grammarly.com/"
+  },
+  {
+    "name": "Microsoft 365 Copilot",
+    "category": "productivity",
+    "maker": "Microsoft",
+    "url": "https://www.microsoft.com/en-us/microsoft-copilot"
+  },
+  {
+    "name": "Google Workspace AI",
+    "category": "productivity",
+    "maker": "Google",
+    "url": "https://workspace.google.com/"
+  },
+  {
+    "name": "Obsidian + plugins",
+    "category": "productivity",
+    "maker": "Obsidian",
+    "url": "https://obsidian.md/"
+  },
+  {
+    "name": "Raycast AI",
+    "category": "productivity",
+    "maker": "Raycast",
+    "url": "https://www.raycast.com/ai"
+  },
+  {
+    "name": "Pinecone",
+    "category": "vector",
+    "maker": "Pinecone",
+    "url": "https://www.pinecone.io/"
+  },
+  {
+    "name": "Weaviate",
+    "category": "vector",
+    "maker": "Weaviate",
+    "url": "https://weaviate.io/"
+  },
+  {
+    "name": "Chroma",
+    "category": "vector",
+    "maker": "Chroma",
+    "url": "https://www.trychroma.com/"
+  },
+  {
+    "name": "Qdrant",
+    "category": "vector",
+    "maker": "Qdrant",
+    "url": "https://qdrant.tech/"
+  },
+  {
+    "name": "LanceDB",
+    "category": "vector",
+    "maker": "LanceDB",
+    "url": "https://lancedb.com/"
+  },
+  {
+    "name": "Weights & Biases",
+    "category": "mlops",
+    "maker": "W&B",
+    "url": "https://wandb.ai/"
+  },
+  {
+    "name": "MLflow",
+    "category": "mlops",
+    "maker": "LF AI",
+    "url": "https://mlflow.org/"
+  },
+  {
+    "name": "PyTorch",
+    "category": "mlops",
+    "maker": "Meta",
+    "url": "https://pytorch.org/"
+  },
+  {
+    "name": "TensorFlow",
+    "category": "mlops",
+    "maker": "Google",
+    "url": "https://www.tensorflow.org/"
+  },
+  {
+    "name": "JAX",
+    "category": "mlops",
+    "maker": "Google",
+    "url": "https://jax.dev/"
+  },
+  {
+    "name": "Kaggle",
+    "category": "mlops",
+    "maker": "Google",
+    "url": "https://www.kaggle.com/"
+  },
+  {
+    "name": "LangChain",
+    "category": "agent",
+    "maker": "LangChain",
+    "url": "https://www.langchain.com/"
+  },
+  {
+    "name": "LangGraph",
+    "category": "agent",
+    "maker": "LangChain",
+    "url": "https://www.langchain.com/langgraph"
+  },
+  {
+    "name": "LlamaIndex",
+    "category": "agent",
+    "maker": "LlamaIndex",
+    "url": "https://www.llamaindex.ai/"
+  },
+  {
+    "name": "CrewAI",
+    "category": "agent",
+    "maker": "CrewAI",
+    "url": "https://www.crewai.com/"
+  },
+  {
+    "name": "AutoGen",
+    "category": "agent",
+    "maker": "Microsoft",
+    "url": "https://github.com/microsoft/autogen"
+  },
+  {
+    "name": "n8n",
+    "category": "agent",
+    "maker": "n8n",
+    "url": "https://n8n.io/"
+  },
+  {
+    "name": "Zapier AI",
+    "category": "agent",
+    "maker": "Zapier",
+    "url": "https://zapier.com/ai"
+  },
+  {
+    "name": "Dify",
+    "category": "agent",
+    "maker": "Dify",
+    "url": "https://dify.ai/"
+  },
+  {
+    "name": "Flowise",
+    "category": "agent",
+    "maker": "Flowise",
+    "url": "https://flowiseai.com/"
+  },
+  {
+    "name": "Semantic Kernel",
+    "category": "agent",
+    "maker": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/semantic-kernel/"
+  },
+  {
+    "name": "OpenAI Agents SDK",
+    "category": "agent",
+    "maker": "OpenAI",
+    "url": "https://openai.github.io/openai-agents-python/"
+  },
+  {
+    "name": "MCP (Model Context Protocol)",
+    "category": "agent",
+    "maker": "Anthropic",
+    "url": "https://modelcontextprotocol.io/"
+  },
+  {
+    "name": "OSS programs guide",
+    "category": "career",
+    "maker": "Community",
+    "url": "https://github.com/Jay-Lokhande/oss-programs-and-hackathons"
+  },
+  {
+    "name": "Google DeepMind careers",
+    "category": "career",
+    "maker": "Google",
+    "url": "https://deepmind.google/about/careers/"
+  },
+  {
+    "name": "OpenAI jobs",
+    "category": "career",
+    "maker": "OpenAI",
+    "url": "https://openai.com/careers"
+  },
+  {
+    "name": "Anthropic careers",
+    "category": "career",
+    "maker": "Anthropic",
+    "url": "https://www.anthropic.com/careers"
+  },
+  {
+    "name": "Hugging Face jobs",
+    "category": "career",
+    "maker": "Hugging Face",
+    "url": "https://huggingface.co/join"
+  },
+  {
+    "name": "Hugging Face",
+    "category": "hub",
+    "maker": "HF",
+    "url": "https://huggingface.co/"
+  },
+  {
+    "name": "Papers With Code",
+    "category": "hub",
+    "maker": "Community",
+    "url": "https://paperswithcode.com/"
+  },
+  {
+    "name": "arXiv (cs.AI / cs.LG)",
+    "category": "hub",
+    "maker": "Cornell",
+    "url": "https://arxiv.org/"
+  },
+  {
+    "name": "LMSYS Chatbot Arena",
+    "category": "hub",
+    "maker": "LMSYS",
+    "url": "https://lmarena.ai/"
+  },
+  {
+    "name": "Artificial Analysis",
+    "category": "hub",
+    "maker": "Artificial Analysis",
+    "url": "https://artificialanalysis.ai/"
+  },
+  {
+    "name": "DeepLearning.AI",
+    "category": "learn",
+    "maker": "DeepLearning.AI",
+    "url": "https://www.deeplearning.ai/"
+  },
+  {
+    "name": "fast.ai",
+    "category": "learn",
+    "maker": "fast.ai",
+    "url": "https://course.fast.ai/"
+  },
+  {
+    "name": "Kaggle Learn",
+    "category": "learn",
+    "maker": "Kaggle",
+    "url": "https://www.kaggle.com/learn"
+  },
+  {
+    "name": "Microsoft Learn AI",
+    "category": "learn",
+    "maker": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/ai/"
+  },
+  {
+    "name": "Apple Intelligence",
+    "category": "hardware",
+    "maker": "Apple",
+    "url": "https://www.apple.com/apple-intelligence/"
+  },
+  {
+    "name": "Qualcomm AI Hub",
+    "category": "hardware",
+    "maker": "Qualcomm",
+    "url": "https://aihub.qualcomm.com/"
+  },
+  {
+    "name": "Intel AI PC",
+    "category": "hardware",
+    "maker": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/ai/overview.html"
+  },
+  {
+    "name": "AMD Ryzen AI",
+    "category": "hardware",
+    "maker": "AMD",
+    "url": "https://www.amd.com/en/technologies/ryzen-ai"
+  },
+  {
+    "name": "Databricks (Mosaic AI)",
+    "category": "enterprise",
+    "maker": "Databricks",
+    "url": "https://www.databricks.com/product/artificial-intelligence"
+  },
+  {
+    "name": "Snowflake Cortex",
+    "category": "enterprise",
+    "maker": "Snowflake",
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex"
+  },
+  {
+    "name": "Salesforce Einstein",
+    "category": "enterprise",
+    "maker": "Salesforce",
+    "url": "https://www.salesforce.com/artificial-intelligence/"
+  },
+  {
+    "name": "Azure AI",
+    "category": "enterprise",
+    "maker": "Microsoft",
+    "url": "https://azure.microsoft.com/en-us/solutions/ai"
+  },
+  {
+    "name": "EU AI Act (official)",
+    "category": "ethics",
+    "maker": "EU",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+  },
+  {
+    "name": "NIST AI Risk Management Framework",
+    "category": "ethics",
+    "maker": "NIST",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+  },
+  {
+    "name": "OECD AI Policy Observatory",
+    "category": "ethics",
+    "maker": "OECD",
+    "url": "https://oecd.ai/"
+  },
+  {
+    "name": "Partnership on AI",
+    "category": "ethics",
+    "maker": "PAI",
+    "url": "https://partnershiponai.org/"
+  },
+  {
+    "name": "UNESCO AI ethics",
+    "category": "ethics",
+    "maker": "UNESCO",
+    "url": "https://www.unesco.org/en/artificial-intelligence"
+  },
+  {
+    "name": "Creative Commons \u2014 AI & copyright",
+    "category": "ethics",
+    "maker": "CC",
+    "url": "https://creativecommons.org/about/ai-and-creative-commons/"
+  }
 ]
