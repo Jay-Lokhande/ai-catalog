@@ -1,0 +1,16 @@
+[
+  {"name": "ChatGPT", "category": "chat", "maker": "OpenAI", "url": "https://chatgpt.com/"},
+  {"name": "Claude", "category": "chat", "maker": "Anthropic", "url": "https://claude.ai/"},
+  {"name": "Gemini", "category": "chat", "maker": "Google", "url": "https://gemini.google.com/"},
+  {"name": "Cursor", "category": "coding", "maker": "Cursor", "url": "https://cursor.com/"},
+  {"name": "GitHub Copilot", "category": "coding", "maker": "GitHub", "url": "https://github.com/features/copilot"},
+  {"name": "OpenAI API", "category": "api", "maker": "OpenAI", "url": "https://platform.openai.com/"},
+  {"name": "Anthropic API", "category": "api", "maker": "Anthropic", "url": "https://docs.anthropic.com/"},
+  {"name": "Ollama", "category": "local", "maker": "Ollama", "url": "https://ollama.com/"},
+  {"name": "Hugging Face", "category": "hub", "maker": "HF", "url": "https://huggingface.co/"},
+  {"name": "Qwen", "category": "model", "maker": "Alibaba", "url": "https://huggingface.co/Qwen"},
+  {"name": "Llama", "category": "model", "maker": "Meta", "url": "https://llama.meta.com/"},
+  {"name": "Midjourney", "category": "image", "maker": "Midjourney", "url": "https://www.midjourney.com/"},
+  {"name": "LangChain", "category": "agent", "maker": "LangChain", "url": "https://www.langchain.com/"},
+  {"name": "Perplexity", "category": "chat", "maker": "Perplexity", "url": "https://www.perplexity.ai/"}
+]
