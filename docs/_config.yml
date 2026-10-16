@@ -2,3 +2,8 @@ title: All The AIs
 description: AI assistants, APIs, coding tools, local LLMs
 theme: jekyll-theme-cayman
 markdown: GFM
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true

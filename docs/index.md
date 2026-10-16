@@ -4,12 +4,12 @@ Community catalog of **AI chat**, **coding assistants**, **APIs**, **local LLMs*
 
 ## Browse
 
-- [Full tables (GitHub README)](../README.md)
-- [Navigation](../NAVIGATION.md)
-- [Machine-readable index](../data/ai-tools.json)
-- [Free tiers & student credits](../resources/free-tiers.md)
-- [AI scams](../resources/ai-scams.md)
-- [Ethics & policy links](../resources/ai-ethics.md)
+- [Full tables](site/README.html)
+- [Navigation](site/NAVIGATION.html)
+- [Machine-readable index](site/data/ai-tools.json)
+- [Free tiers & student credits](site/resources/free-tiers.html)
+- [AI scams](site/resources/ai-scams.html)
+- [Ethics & policy links](site/resources/ai-ethics.html)
 
 ## Sister repos
 
@@ -18,4 +18,4 @@ Community catalog of **AI chat**, **coding assistants**, **APIs**, **local LLMs*
 
 ## Contribute
 
-[CONTRIBUTING.md](../CONTRIBUTING.md) on GitHub.
+[CONTRIBUTING.md](https://github.com/Jay-Lokhande/ai-catalog/blob/main/CONTRIBUTING.md) on GitHub.
