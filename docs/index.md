@@ -4,7 +4,7 @@ Community catalog of **AI chat**, **coding assistants**, **APIs**, **local LLMs*
 
 ## Browse
 
-- [Full tables](site/README.html)
+- [Full tables](site/)
 - [Navigation](site/NAVIGATION.html)
 - [Machine-readable index](site/data/ai-tools.json)
 - [Free tiers & student credits](site/resources/free-tiers.html)
