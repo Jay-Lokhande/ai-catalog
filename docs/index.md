@@ -6,6 +6,7 @@ Community catalog of **AI chat**, **coding assistants**, **APIs**, **local LLMs*
 
 - [Full tables](site/)
 - [Navigation](site/NAVIGATION.html)
+- [All three sister catalogs](site/resources/sister-repos.html)
 - [Machine-readable index](site/data/ai-tools.json)
 - [Free tiers & student credits](site/resources/free-tiers.html)
 - [AI scams](site/resources/ai-scams.html)
@@ -13,8 +14,11 @@ Community catalog of **AI chat**, **coding assistants**, **APIs**, **local LLMs*
 
 ## Sister repos
 
-- [oss-programs-and-hackathons](https://github.com/Jay-Lokhande/oss-programs-and-hackathons) — GSoC, hackathons, scholarships
-- [coding-platforms](https://github.com/Jay-Lokhande/coding-platforms) — DSA, MOOCs, cloud IDEs
+| Catalog | Pages |
+| --- | --- |
+| **All You Have To Do Is Believe** | [oss-programs-and-hackathons](https://jay-lokhande.github.io/oss-programs-and-hackathons/) |
+| **This repo** — AI tools & models | [ai-catalog](https://jay-lokhande.github.io/ai-catalog/) |
+| **Code Platforms** | [coding-platforms](https://jay-lokhande.github.io/coding-platforms/) |
 
 ## Contribute
 
